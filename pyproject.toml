@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "qcsmcm"
+version = "0.1.0"
+description = ""
+authors = ["Kazumasa Ueno"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+qiskit = "^1.0.2"
+numpy = "1.23"
+scipy = "^1.13.0"
+matplotlib = "^3.8.4"
+pylatexenc = "^2.10"
+qiskit-aer = "^0.14.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

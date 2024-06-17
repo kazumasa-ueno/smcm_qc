@@ -117,7 +117,7 @@ with open(output_file_name, 'w') as f:
     qc = create_circ(x0)
     backend = AerSimulator()
     qc_compiled = transpile(qc, backend)
-    print("depth:{}".format(qc_compiled.depth()))
+    # print("depth:{}".format(qc_compiled.depth()))
     job_sim = backend.run(qc_compiled, shots=shot_num)
     result_sim = job_sim.result()
     counts = result_sim.get_counts(qc_compiled)
