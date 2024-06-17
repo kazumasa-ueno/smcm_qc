@@ -18,6 +18,11 @@ cd smcm_qc
 poetry install
 ```
 
+## How to run quantum code
+```bash
+poetry run python quantum.py
+```
+
 ## Required python libraries and tested versions
 | Library | Version |
 |--------------|------------|
